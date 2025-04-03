@@ -50,7 +50,7 @@ describe("FamilyTree", function () {
 
         consoleSpy.restore();
     });
-    //ensures console log displays descendants when "John Doe" is named
+    //ensures console log displays descendants when "John Doe" is named including grandchildren
     it("should correctly display descendants", function(){
         const consoleSpy = sinon.spy(console, "log");
 
